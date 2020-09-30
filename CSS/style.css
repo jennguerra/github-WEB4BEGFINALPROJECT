@@ -1,63 +1,104 @@
 body{
-    background-color: indigo;
+    background-color: whitesmoke;
     padding: 0%;
     margin: 0%;
 }
+
 header{
-    background-color: skyblue;
+    background-color: indigo;
     width: 100%;
     height: 60px;
     text-align: center;
 }
+
 nav{
-    border-bottom: 3px solid black;
+    border-bottom: none;
     position:fixed;
-    border: 3px solid black;
-    background-color: teal;
+    border: none;
+    background-color: silver;
     width: 100%;
     height: 60px;
     text-align: center;
+    font-family: 'Merienda', cursive;
+    line-height: 30px;
+    letter-spacing: 10px;
+    opacity: .9;
 }
+
 nav li{
     display: inline-block;
-    list-style: none;
-    height: 30px;
+    list-style: upper-roman;
+    height: 100px;
     line-height: 20px;
     padding: 0 40px;
 }
+
 nav li a:link{
     color: cornflowerblue;
     text-decoration: none;
 }
+
 nav li a:hover{
-    background-color: crimson;
+    background-color: whitesmoke;
    transition: background .3s;
 }
-nav li a:active{
-    color: darkgreen;
-}
-aside{
-    background-color: pink;
-    width: 50%;
-    height: 80%;
-    text-align: center;
-    float: right;
-}
+
 section{
-    background-color: tomato;
-    width: 50%;
-    height: 40%;
+    background-color: pink;
+    width: 100%;
+    height: 400px;
     text-align: center;
 }
+
+h1{
+    font-size: 100px;
+    margin-top: 70px;
+    letter-spacing: 15px;
+    font-family: 'Merienda', cursive;
+    color: whitesmoke;
+}
+
 article{
-    background-color: olive;
+    background-color:whitesmoke;
     width: 50%;
     height: 40%;
     text-align: center;
 }
+
 footer{
     background-color: silver;
     width: 100%;
-    height: 50px;
+    height: 150px;
     text-align: center;
 }
+
+/*yelp*/
+.fa-yelp{
+    background: none;
+    color: whitesmoke;
+
+}
+.fa-yelp:hover{
+    background-color: pink;
+    transition: 3s;
+}
+
+
+/*facebook*/
+.fa-facebook{
+    background: none;
+    color: whitesmoke;
+}
+
+.fa-facebook:hover{
+    background-color: pink;
+    transition: 3s;
+}
+
+.fab{
+    font-size: 3rem;
+    margin: 10px;
+}
+
+
+
